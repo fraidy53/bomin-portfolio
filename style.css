@@ -76,3 +76,24 @@
 .map-branches>span{flex:1;min-width:120px;padding:16px;background:#e3eaff;text-align:center;font-size:16px;font-weight:650;border-radius:6px}
 .screen-map-body>.text-link{display:inline-block;margin-top:16px}
 @media(max-width:640px){.map-flow{padding:16px}.map-branches{display:grid;grid-template-columns:1fr;width:100%}}
+
+/* Cloud-engineering first impression. */
+.career-track{display:inline-flex;align-items:center;gap:10px;margin:0 0 18px;padding:8px 12px;border:1px solid #cdd7ff;border-radius:999px;background:#f3f6ff;color:var(--blue);font-size:12px;font-weight:800;letter-spacing:.08em;line-height:1.4}
+.career-track:before{content:'';width:7px;height:7px;border-radius:50%;background:#18a66a;box-shadow:0 0 0 4px #dff6eb}
+.intro-actions{display:flex;align-items:center;gap:22px;flex-wrap:wrap;margin-top:28px}
+.intro-actions .intro-link{margin:0}
+.intro-primary{display:inline-flex;align-items:center;justify-content:space-between;gap:34px;padding:15px 18px;border-radius:6px;background:var(--ink);color:white;text-decoration:none;font-size:14px;font-weight:700;box-shadow:0 10px 24px #15203720;transition:transform .2s,background .2s}
+.intro-primary:hover{color:white;background:var(--blue);transform:translateY(-2px)}
+.intro-primary span{font-size:18px}
+.capability-strip{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));border-top:1px solid var(--line);border-bottom:1px solid var(--line);margin-bottom:62px}
+.capability-strip>div{padding:24px 28px}
+.capability-strip>div:first-child{padding-left:0}
+.capability-strip>div+div{border-left:1px solid var(--line)}
+.capability-strip strong,.capability-strip span{display:block}
+.capability-strip strong{font-size:15px;color:var(--ink);letter-spacing:-.02em}
+.capability-strip span{margin-top:7px;color:var(--muted);font-size:13px;line-height:1.5}
+.portfolio-home .gallery-heading{align-items:flex-end;padding-top:0;border-top:0}
+.portfolio-home .gallery-heading .eyebrow{margin:0 0 8px;font-size:11px;letter-spacing:.12em}
+.portfolio-home .gallery-heading h2{font-size:30px}
+.portfolio-home .gallery-number{font-weight:750;letter-spacing:.05em}
+@media(max-width:640px){.career-track{font-size:10px;letter-spacing:.045em}.intro-actions{gap:16px}.intro-primary{width:100%}.capability-strip{grid-template-columns:1fr;margin-bottom:42px}.capability-strip>div,.capability-strip>div:first-child{padding:16px 0}.capability-strip>div+div{border-left:0;border-top:1px solid var(--line)}.portfolio-home .gallery-heading h2{font-size:25px}}
